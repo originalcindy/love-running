@@ -65,6 +65,8 @@ main {
     background-color: lightblue;
     /*make main element take up any suplus space to push footer down*/
     flex: 1 0 auto;
+    margin-top: 47px;
+    
 }
 
 .active {
@@ -86,7 +88,6 @@ nav {
 /*Nav toggle*/
 #nav-toggle:checked~nav {
     display: block;
-
 }
 
 #nav-toggle {
