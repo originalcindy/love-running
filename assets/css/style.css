@@ -24,7 +24,6 @@ body {
     font-family: 'lato', sans-serif;
 }
 
-
 /*header*/
 header {
     background-color: #ffffff;
@@ -34,15 +33,28 @@ header {
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
 }
+
 header a {
     text-decoration: none;
     color: inherit;
 }
+
 h1 {
     font-family: 'oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+
+}
+
+#menu > li {
+    margin-bottom: 1em;
 }
 
 /*main content*/
@@ -51,7 +63,9 @@ main {
     /*make main element take up any suplus space to push footer down*/
     flex: 1 0 auto;
 }
-
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
 /*footer*/
 footer {
     background-color: orange;
